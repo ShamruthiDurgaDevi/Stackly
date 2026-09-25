@@ -1,0 +1,161 @@
+```css
+/* Basic settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f8ff;
+    color: #333;
+}
+
+
+/* Header */
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #023e8a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Headings */
+h2 {
+    color: #0077b6;
+}
+
+
+/* Images */
+section img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/* Button */
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+
+/* Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+
+/* List */
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* Form */
+form {
+    background-color: white;
+    padding: 25px;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* Input fields */
+input,
+select,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Submit and Reset buttons */
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #023e8a;
+}
+
+
+/* Footer */
+footer {
+    background-color: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+```
+
