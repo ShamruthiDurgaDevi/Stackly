@@ -1,143 +1,374 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- Makes the website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+
+    <title>Travel World</title>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>A simple website created using HTML only</p>
+    <!-- HEADER -->
+    <header id="home">
+
+        <h1>🌍 Travel World</h1>
+
+        <p>
+            Explore the world, discover new places and create
+            unforgettable memories.
+        </p>
+
     </header>
 
     <hr>
 
-    <!-- Navigation -->
+    <!-- NAVIGATION -->
     <nav>
+
         <a href="#home">Home</a> |
-        <a href="#about">About</a> |
-        <a href="#services">Services</a> |
+        <a href="#destinations">Destinations</a> |
+        <a href="#packages">Packages</a> |
+        <a href="#about">About Us</a> |
         <a href="#contact">Contact</a>
+
     </nav>
 
     <hr>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h2>Home</h2>
+    <!-- HOME SECTION -->
+    <section>
+
+        <h2>Welcome to Travel World ✈️</h2>
 
         <p>
-            Welcome to my simple website. This website is created
-            using only HTML without CSS or JavaScript.
+            Plan your perfect holiday with us. We provide exciting
+            travel packages to beautiful destinations around the world.
         </p>
 
-        <img src="https://via.placeholder.com/500x250"
-             alt="Website Image"
-             width="500">
+        <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+            alt="Beautiful beach destination"
+            width="600"
+        >
+
+        <br><br>
+
+        <a href="#packages">
+            <button type="button">Explore Packages</button>
+        </a>
+
     </section>
 
     <hr>
 
-    <!-- About Section -->
+    <!-- DESTINATIONS -->
+    <section id="destinations">
+
+        <h2>Popular Destinations</h2>
+
+        <h3>🏝️ Maldives</h3>
+
+        <p>
+            Enjoy beautiful beaches, crystal clear water and
+            relaxing resorts.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8"
+            alt="Maldives beach"
+            width="400"
+        >
+
+        <h3>🗼 Paris</h3>
+
+        <p>
+            Experience the beauty of Paris, the Eiffel Tower,
+            museums and French culture.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+            alt="Eiffel Tower in Paris"
+            width="400"
+        >
+
+        <h3>🏔️ Switzerland</h3>
+
+        <p>
+            Explore beautiful mountains, lakes and peaceful
+            landscapes.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99"
+            alt="Swiss mountains"
+            width="400"
+        >
+
+    </section>
+
+    <hr>
+
+    <!-- TRAVEL PACKAGES -->
+    <section id="packages">
+
+        <h2>Our Travel Packages</h2>
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th>Package</th>
+                <th>Destination</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Beach Escape</td>
+                <td>Maldives</td>
+                <td>5 Days</td>
+                <td>₹45,000</td>
+            </tr>
+
+            <tr>
+                <td>European Adventure</td>
+                <td>Paris</td>
+                <td>7 Days</td>
+                <td>₹85,000</td>
+            </tr>
+
+            <tr>
+                <td>Mountain Trip</td>
+                <td>Switzerland</td>
+                <td>6 Days</td>
+                <td>₹95,000</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- ABOUT US -->
     <section id="about">
+
         <h2>About Us</h2>
 
         <p>
-            We are a small team interested in creating simple and
-            useful websites using modern web technologies.
+            Travel World is a travel company that helps people
+            explore amazing destinations at affordable prices.
         </p>
 
-        <h3>Our Skills</h3>
+        <h3>Why Choose Us?</h3>
 
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
+            <li>Affordable travel packages</li>
+            <li>Experienced travel guides</li>
+            <li>Comfortable accommodation</li>
+            <li>24/7 customer support</li>
+            <li>Customized travel plans</li>
         </ul>
+
     </section>
 
     <hr>
 
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Our Services</h2>
-
-        <table border="1">
-            <tr>
-                <th>Service</th>
-                <th>Description</th>
-            </tr>
-
-            <tr>
-                <td>Web Design</td>
-                <td>Creating simple and attractive websites</td>
-            </tr>
-
-            <tr>
-                <td>Web Development</td>
-                <td>Developing websites using HTML and other technologies</td>
-            </tr>
-
-            <tr>
-                <td>Website Maintenance</td>
-                <td>Updating and maintaining existing websites</td>
-            </tr>
-        </table>
-    </section>
-
-    <hr>
-
-    <!-- Contact Section -->
+    <!-- BOOKING FORM -->
     <section id="contact">
-        <h2>Contact Us</h2>
 
-        <form>
+        <h2>Book Your Trip</h2>
 
-            <label for="name">Name:</label>
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label>
             <br>
-            <input type="text" id="name" name="name">
+
+            <input
+                type="text"
+                id="name"
+                name="fullname"
+                placeholder="Enter your full name"
+                required
+            >
+
             <br><br>
+
 
             <label for="email">Email:</label>
             <br>
-            <input type="email" id="email" name="email">
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
             <br><br>
 
-            <label for="phone">Phone:</label>
+
+            <label for="phone">Phone Number:</label>
             <br>
-            <input type="tel" id="phone" name="phone">
+
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
             <br><br>
 
-            <label for="message">Message:</label>
+
+            <label for="destination">Choose Destination:</label>
             <br>
-            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+            <select
+                id="destination"
+                name="destination"
+                required
+            >
+
+                <option value="">-- Select Destination --</option>
+
+                <option value="maldives">
+                    Maldives
+                </option>
+
+                <option value="paris">
+                    Paris
+                </option>
+
+                <option value="switzerland">
+                    Switzerland
+                </option>
+
+            </select>
+
             <br><br>
 
-            <input type="submit" value="Submit">
+
+            <label for="people">Number of People:</label>
+            <br>
+
+            <input
+                type="number"
+                id="people"
+                name="people"
+                min="1"
+                max="20"
+                value="1"
+                required
+            >
+
+            <br><br>
+
+
+            <label for="date">Travel Date:</label>
+            <br>
+
+            <input
+                type="date"
+                id="date"
+                name="traveldate"
+                required
+            >
+
+            <br><br>
+
+
+            <label for="message">Additional Requirements:</label>
+            <br>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="40"
+                placeholder="Enter your requirements..."
+            ></textarea>
+
+            <br><br>
+
+            <input
+                type="submit"
+                value="Book Now"
+            >
+
+            <input
+                type="reset"
+                value="Clear"
+            >
 
         </form>
+
     </section>
 
     <hr>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 My Simple Website. All Rights Reserved.</p>
+    <!-- CONTACT INFORMATION -->
+    <section>
+
+        <h2>Contact Us</h2>
 
         <p>
-            Email:
-            <a href="shamruthidurai@gmail.com">
-                example@gmail.com
+            📧 Email:
+            <a href="mailto:travelworld@example.com">
+                travelworld@example.com
             </a>
         </p>
+
+        <p>
+            📞 Phone:
+            <a href="tel:+919876543210">
+                +91 98765 43210
+            </a>
+        </p>
+
+        <p>
+            📍 Location: Chennai, Tamil Nadu, India
+        </p>
+
+        <p>
+            🌐 Visit our
+            <a
+                href="https://www.google.com"
+                target="_blank"
+                title="Open Google"
+            >
+                website
+            </a>
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Travel World. All Rights Reserved.
+        </p>
+
+        <p>
+            Follow us:
+            <a href="#">Instagram</a> |
+            <a href="#">Facebook</a> |
+            <a href="#">YouTube</a>
+        </p>
+
     </footer>
 
 </body>
 
 </html>
+```
