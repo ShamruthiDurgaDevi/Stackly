@@ -13,7 +13,7 @@ header {
     background-color: #0077b6;
     color: white;
     text-align: center;
-    padding: 30 px;
+    padding: 30px;
 }
 
 header h1 {
@@ -122,7 +122,7 @@ textarea {
     width: 90%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1 px solid #ccc;
     border-radius: 5px;
 }
 
@@ -156,5 +156,3 @@ footer a {
     color: white;
     text-decoration: none;
 }
-```
-
