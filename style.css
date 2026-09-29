@@ -1,4 +1,4 @@
-/* /* Basic settings */
+/* Basic settings */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -155,10 +155,9 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
-} */
+} 
 
 
-```css
 /* Main Header */
 .main-header {
     background-color: #0077b6;
