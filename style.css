@@ -1,4 +1,4 @@
-/* Basic settings */
+/* /* Basic settings */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -155,4 +155,53 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+} */
+
+
+```css
+/* Main Header */
+.main-header {
+    background-color: #0077b6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
 }
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Navigation */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Navigation Hover */
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Book Now Button */
+.header-button a {
+    background-color: white;
+    color: #0077b6;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Button Hover */
+.header-button a:hover {
+    background-color: #023e8a;
+    color: white;
+}
+
+
